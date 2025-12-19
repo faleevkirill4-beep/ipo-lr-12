@@ -1,6 +1,7 @@
-from transport import Vehicle 
-from transport import TransportCompany 
-from transport import Client 
+from transport.TransportCompany import TransportCompany
+from transport.Client import Client
+from transport.Vehicle import Vehicle
+
 
 company = TransportCompany("Транспортная компания")
 while True:
